@@ -35,7 +35,7 @@ Passos do Projeto:
 
 No terminal linux, faça este comando conforme abaixo e aperte enter para confirmar
 
-sudo apt update && sudo apt upgrade -y
+.sudo apt update && sudo apt upgrade -y
 
   No terminal linux, faça este comando conforme abaixo e aperte enter para confirmar
   
