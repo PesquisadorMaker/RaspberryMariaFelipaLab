@@ -17,8 +17,8 @@ Acesso à internet para instalação dos programas
 
 Passos do Projeto:
 
-Instalação do Sistema Operacional:
-Baixe e instale o sistema operacional Raspberry pi e instale utilizando um balena etcher para o cartão microSD.
+Instalação do Sistema Operacional: (Baixe https://www.raspberrypi.com/software/)
+Baixe e instale o sistema operacional Raspberry pi e instale utilizando um balena etcher (https://etcher.balena.io/) para o cartão microSD.
 Insira o cartão microSD no Raspberry Pi 3 e inicie o sistema.
 
 Configuração da Rede:
