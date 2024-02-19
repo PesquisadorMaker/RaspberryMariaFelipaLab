@@ -33,56 +33,71 @@ Passos do Projeto:
             Python: Para suporte a aplicativos e scripts.
             Node.js: Para execução de aplicativos JavaScript no servidor.
 
-  No terminal linux, faça este comando conforme abaixo e aperte enter para confirmar
+No terminal linux, faça este comando conforme abaixo e aperte enter para confirmar
+
 sudo apt update && sudo apt upgrade -y
 
   No terminal linux, faça este comando conforme abaixo e aperte enter para confirmar
+  
 sudo apt install apache2 -y
 
   No terminal linux, faça este comando conforme abaixo e aperte enter para confirmar
+  
 cd /var/www/html
 
   No terminal linux, faça este comando conforme abaixo e aperte enter para confirmar
+  
 ls -al index.html
 
   No terminal linux, faça este comando conforme abaixo e aperte enter para confirmar
+  
 /var/www/html $ hostname -I	
 
   No terminal linux, faça este comando conforme abaixo e aperte enter para confirmar
+  
 sudo apt install php -y
 
   No terminal linux, faça este comando conforme abaixo e aperte enter para confirmar
+  
 sudo service apache2 restart
 
   No terminal linux, faça este comando conforme abaixo e aperte enter para confirmar
+  
  banco de dados
 
   No terminal linux, faça este comando conforme abaixo e aperte enter para confirmar
+  
 sudo apt install mariadb-server php-mysql -y
 
   No terminal linux, faça este comando conforme abaixo e aperte enter para confirmar
+  
 sudo service apache2 restart
 
   No terminal linux, faça este comando conforme abaixo e aperte enter para confirmar
+  
 sudo mysql_secure_installation
 
   No terminal linux, faça este comando conforme abaixo e aperte enter para confirmar
+  
 sudo mysql --user=root --password
 
   No terminal linux, faça este comando conforme abaixo e aperte enter para confirmar
+  
 create user admin@localhost identified by 'sua_senha_aqui';
 
   No terminal linux, faça este comando conforme abaixo e aperte enter para confirmar
-
-  No terminal linux, faça este comando conforme abaixo e aperte enter para confirmar
+  
 grant all privileges on *.* to admin@localhost;
 
   No terminal linux, faça este comando conforme abaixo e aperte enter para confirmar
+  
 FLUSH PRIVILEGES;
   No terminal linux, faça este comando conforme abaixo e aperte enter para confirmar
+  
 exit;
 
   No terminal linux, faça este comando conforme abaixo e aperte enter para confirmar
+  
 sudo apt install phpmyadmin -y
 
     Selecione Apache2 quando aparecer como opção e depois aperte a tecla ENTER
@@ -92,9 +107,11 @@ sudo apt install phpmyadmin -y
 
 
   No terminal linux, faça este comando conforme abaixo e aperte enter para confirmar
+  
 sudo phpenmod mysqli
 
   No terminal linux, faça este comando conforme abaixo e aperte enter para confirmar
+  
 sudo service apache2 restart
 
   No terminal linux, faça este comando conforme abaixo e aperte enter para confirmar
@@ -102,19 +119,23 @@ sudo service apache2 restart
 
 http://localhost/phpmyadmin
 
+ No terminal linux, faça este comando
+ 
+ sudo ln -s /usr/share/phpmyadmin /var/www/html/phpmyadmin
 
  No terminal linux, faça este comando
-sudo ln -s /usr/share/phpmyadmin /var/www/html/phpmyadmin
-
-ls
-phpmyadmin
-
 
 ls -lh /var/www/
 
+ No terminal linux, faça este comand
+ 
 sudo chown -R pi:www-data /var/www/html/
 
+ No terminal linux, faça este comando
+
 sudo chmod -R 770 /var/www/html/
+
+ No terminal linux, faça este comando
 
 ls -lh /var/www/
 
