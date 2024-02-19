@@ -33,7 +33,7 @@ Passos do Projeto:
             Python: Para suporte a aplicativos e scripts.
             Node.js: Para execução de aplicativos JavaScript no servidor.
 
-No terminal linux, faça este comando conforme abaixo e aperte enter para confirmar
+• No terminal linux, faça este comando conforme abaixo e aperte enter para confirmar
 
 .sudo apt update && sudo apt upgrade -y
 
